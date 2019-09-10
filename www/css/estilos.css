@@ -1,0 +1,47 @@
+html,body{
+	height: 100%}
+body{
+	background: rgb(190,241,112);
+background: linear-gradient(90deg, rgba(190,241,112,1) 0%, rgba(114,174,181,1) 31%, rgba(214,95,246,1) 55%, rgba(255,182,200,1) 80%, rgba(160,255,221,1) 100%, rgba(255,188,105,1) 100%);
+}
+nav{
+	background: rgb(255,255,255,0.5);
+
+}
+.foto{
+	margin:0 auto;
+	width: 40%;
+}
+.imagen{
+	max-width: 80%;
+	height: auto;
+}
+.contenido{
+	margin: 0 auto;
+	width: 80%;
+}
+.menu{
+	list-style:none;
+	display: flex;
+	justify-content: space-around;
+}
+.menu li a {
+	text-decoration: none;
+	font-family: verdana;
+	color: #000;
+	font-size: 150%;
+}
+.menu li a:hover{
+	text-decoration: overline;
+}
+@media screen and (max-width: 700px){
+	.menu{
+		flex-direction: column;
+		margin: 0;
+		padding: 0;
+	}
+	.menu li{
+		border-bottom:solid 0.1em, #000;
+		text-align: center;
+	}
+}
